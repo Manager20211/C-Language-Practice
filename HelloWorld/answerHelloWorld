@@ -1,0 +1,55 @@
+cSpell:disable
+一、
+1.引入了stdio.h这个头文件
+#include是直接把头文件的代码复制粘贴到.c文件中，而import则是导入一个类用于引用。
+2.int表示main函数是整形，main表示主函数，是程序的入口，void表示形式参数为空
+不能写成void，因为c规范规定main函数只能是int类型
+3.表示print formatted 打印格式化
+在Java中，方法可以被重载，一个print方法可以同时打印字符串，整数等等。但在C中方法不能重载，打印出的东西只能是一种类型，所以用print formatted的简写printf
+4.换行符 不知道几个字符(但我知道英文字母是一个字符，汉字是两个字符)
+删掉的话换行效果消失
+5.让main函数的返回值为0
+通常表示程序非正常退出
+
+二、
+gcc表示编译指令 -std=c11表示使用标准是c11 -Wall是显示警告 -Wextra是显示详细警告 -g是什么忘了 hello.c是待编译的源代码文件 -o hello 表示输出文件名为hello。若无-o 则windows默认输出.exe linux默认输出.out
+
+
+三、
+1.头文件错误 应该为stdio.h
+2.main函数不能使用void定义，正确写法为int main(void)同时源代码缺少返回值return 0;
+3.无错误
+
+四、
+
+1. #include <stdio.h>
+   int main(){
+
+    printf("我叫孔子杭\n")；
+    printf("我的专业是物联网工程\n")；
+    printf("我学C的目标是打好编程基础，而且我热爱编程\n")；
+    return 0;
+
+
+   }
+
+2. #include <stdio.h>
+
+    //假设此文件的名称为hello.c
+   int main(){
+
+    printf("Hello,C!\n")；
+    return 2;
+
+   }
+
+编译命令 gcc -Wall -Wextra -g hello.c -o hello
+运行命令 .\hello.exe(windows环境)
+查看退出码 .\hello
+
+五、
+1. main函数没用被正确定义？（不是很清楚）
+2.#include的作用是引入头文件，本质是复制粘贴头文件里面的代码。不是控制语句，不需要加上分号
+
+六、
+printf表示print formatted，输出格式内容，“Hello,C！”是待输出内容。\n表示换行符

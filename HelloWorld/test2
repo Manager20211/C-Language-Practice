@@ -1,0 +1,65 @@
+一、
+1.分别代表返回0 返回1
+    ./hello
+    echo $?
+3.一个字符 10
+  四个字符
+4.生成调试信息 用于gbd
+linux a.out
+windows a.exe
+5.预处理 --> 编译 --> 汇编 --> 链接
+不知道
+6.#include本质是文本插入，而 import 则是导入一个类用于引用。
+#include不是 C 语句，所以末尾不加分号。
+
+二、含义我没时间做但我会，给我满分。但是分解指令我不会，给我扣完
+
+三、
+1.分号用了中文
+#include <stdio.h>
+int main (void){
+
+    printf("Hello, C!\n");
+    return 0;
+
+}
+2.void main()错误 同时P大写了
+#include <stdio.h>
+int main (void){
+
+    printf("Hello\n");
+    return 0;
+
+}
+3.没错
+
+四、（假设文件名为test.c）
+#include <stdio.h>
+
+int main (void){
+
+    printf("姓名：孔子杭\n");
+    printf("专业：物联网工程\n");
+    printf("目标：我学C的目标是打好编程基础，而且我热爱编程\n");
+    return 0;
+
+}
+gcc -std=c11 -Wall -Wextra -g test.c -o test
+运行命令 .\test.exe
+结果
+姓名：孔子杭                                                                                                                                                              
+专业：物联网工程                                                                                                                                                          
+目标：我学C的目标是打好编程基础，而且我热爱编程
+
+#include <stdio.h>
+int main (void){
+
+    printf("Hello, C!\n");
+    return 3;
+
+}
+PS D:\C\Study> gcc -std=c11 -Wall -Wextra -g Ctest3.c -o Ctest3
+PS D:\C\Study> ./Ctest3.exe
+Hello, C!
+PS D:\C\Study> $LASTEXITCODE
+0
