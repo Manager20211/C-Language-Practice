@@ -13,5 +13,6 @@ int main(void){
 /*
 
     sizeof用于类型时，括号不能省略。比如只能写sizeof (int)
+    但当sizeof用于某个变量时，括号可以省略
 
 */
