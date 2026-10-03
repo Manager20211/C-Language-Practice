@@ -1,2 +1,8 @@
-# C-Language-Practice
-My own C-Language-Practice repo
+# C语言学习练习仓库
+> 河海大学 物联网工程 自学C语言，用于巩固基础语法、指针、内存等底层知识。
+
+## 内容
+- 课后自主练习demo
+- 学习笔记、易错点总结
+
+环境：VS Code + MinGW-w64 GCC编译器
