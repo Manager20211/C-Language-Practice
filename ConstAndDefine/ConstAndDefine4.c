@@ -29,6 +29,12 @@ int main(void){
 
 /*
 
-编译通过
+编译不通过
+gcc -std=c11 -Wall -Wextra -g ConstAndDefine4.c -o ConstAndDefine4
+                                                                                                              
+ConstAndDefine4.c: In function 'main':
+ConstAndDefine4.c:24:9: warning: unused variable 'arr' [-Wunused-variable]
+   24 |     int arr[N];
+      |         ^~~
 
 */

@@ -1,4 +1,4 @@
-#常量命名习惯
+# 常量命名习惯
 >全大写加下划线：MAX_SIZE、BUFFER_SIZE、PI
 
 >>驼峰：maxSize、bufferSize
