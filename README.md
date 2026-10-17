@@ -26,13 +26,13 @@
 - 第 4 节：流程控制
   - ✅ 4.1 if / else if / else
   - ✅ 4.2 switch / case
-  - ⬜ 4.3 while 循环
+  - ✅ 4.3 while 循环
   - ⬜ 4.4 do while 循环
   - ⬜ 4.5 for 循环
   - ⬜ 4.6 break 和 continue
-  - ⬜ 4.7 goto
+  - ⏭️ 4.7 goto（跳过，初学阶段不需要）
 
-> 当前进度：第 4 节 4.2 已完成，准备进入 4.3 while 循环。
+> 当前进度：第 4 节 4.3 已完成，准备进入 4.4 do while 循环。
 
 ## 环境
 
