@@ -92,7 +92,7 @@ int main(void){
 
     while(num != 0){
 
-        reversed = reversed*10 + num % 10;
+        reversed = reversed*10 + num % 10;     //按位进行操作
         num /= 10;
 
     }
