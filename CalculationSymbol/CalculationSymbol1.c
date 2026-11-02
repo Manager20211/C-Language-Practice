@@ -18,6 +18,7 @@ int b = 5;
 int main (void){
 
     int a = 17;
+    printf("Hello\n");
     int b = 5;
 
     printf("a+b=%d\n", a+b);
