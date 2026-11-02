@@ -9,6 +9,7 @@ void addStudent(void){
 
     system("cls");
 
+
     printf("请依次输入学生的学号，姓名，成绩(输入0退出)\n");
     
     while(1){
@@ -39,8 +40,19 @@ void addStudent(void){
         strcpy(newNode->name,tempName);
         newNode->score = tempScore;
 
+        if(head == NULL){
+
+            head = newNode;
+            tail = newNode;
+
+        }else{
+
         tail->next = newNode;
         tail = newNode;
+
+        }
+
+        
         
     }
     
