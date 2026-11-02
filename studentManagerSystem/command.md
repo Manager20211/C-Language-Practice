@@ -1,0 +1,1 @@
+gcc -std=c11 -Wall -Wextra -g main.c menu.c function.c fileIo.c -o test.exe
