@@ -29,7 +29,6 @@ int main(void){
         switch(userChoice){                            
             case 1:
                 addStudent();
-                saveFile();
                 system("cls"); //实现
                 break;
             case 2:
@@ -42,7 +41,6 @@ int main(void){
                 break;
             case 4:
                 deleteStudent();
-                saveFile();
                 system("cls");  //实现
                 break;
             case 5:
