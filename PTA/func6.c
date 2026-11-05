@@ -35,6 +35,26 @@ int main()
 
 int FactorialSum(List L){
 
-    
+    int tempResult = 1;
+    int result = 0;
 
+    List reader = L;
+
+    while(reader != NULL){
+
+        for(reader->Data;reader->Data>0;reader->Data--){
+
+            tempResult *=reader->Data; 
+
+        }
+
+        reader = reader->Next;
+
+        result += tempResult;
+
+        tempResult = 1;
+
+    }
+
+    return result;
 }

@@ -10,6 +10,7 @@ date:2026/11/5
 #include <windows.h>
 #include <conio.h>
 #include <stdlib.h>
+#include <time.h>
 
 static void SetPos(int x, int y);
 
@@ -26,8 +27,13 @@ int main(void){
     打印日期
     
     */
+
+    time_t t;
+    struct tm *lt;
+    time (&t); 
+    lt=localtime (&t);   
     SetPos(34,0);
-    printf("2026/11/5");
+    printf ("%d/%d/%d %d:%d:%d\n", lt->tm_year+1900, lt->tm_mon, lt->tm_mday,lt->tm_hour, lt->tm_min, lt->tm_sec); 
 
     /*
     
