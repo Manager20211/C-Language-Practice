@@ -4,7 +4,7 @@
             "type": "cppbuild",
             "label": "C/C++: gcc.exe build active file",
             //"command": "D:\\C\\mingw64\\bin\\gcc.exe",
-            "command": "C:\\TDM-GCC-64\\bin\\gcc.exe",
+            "command": "D:\\C\\mingw64\\bin\\gcc.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-std=c89",
